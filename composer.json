@@ -1,0 +1,24 @@
+{
+  "name": "x-feng/taobao-skd",
+  "description": "taobao open api",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "taobaosdk\\":"src/"
+    },
+    "files": [
+      "src/TopSdk.php"
+    ]
+  }
+}
